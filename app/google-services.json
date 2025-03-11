@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "66776575195",
+    "project_id": "project-hacktrove",
+    "storage_bucket": "project-hacktrove.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66776575195:android:8dd5d3e82251b8385770fe",
+        "android_client_info": {
+          "package_name": "com.example.ztrove"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGAzlKxiMznV1eZ280V_gESKswSNNY6zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

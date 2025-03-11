@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ZTrove"
+        tools:targetApi="31">
+        <activity
+            android:name=".features.SongPlay"
+            android:exported="false" />
+        <activity
+            android:name=".features.TextTospeech"
+            android:exported="false" />
+        <activity
+            android:name=".features.TorchApp"
+            android:exported="false" />
+        <activity
+            android:name=".features.AxelometerApp"
+            android:exported="false" />
+        <activity
+            android:name=".features.BlutoothApp"
+            android:exported="false" />
+        <activity
+            android:name=".features.WifiApp"
+            android:exported="false" />
+        <activity
+            android:name=".features.Videoapp"
+            android:exported="false" />
+        <activity
+            android:name=".features.SensorApp"
+            android:exported="false" />
+        <activity
+            android:name=".features.Snapshot"
+            android:exported="false" />
+        <activity
+            android:name=".features.Song"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseMenu"
+            android:exported="false" />
+        <activity
+            android:name=".AppList2"
+            android:exported="false" />
+        <activity
+            android:name=".ThanksPage"
+            android:exported="false" />
+        <activity
+            android:name=".features.VoiceCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".InfoUpload"
+            android:exported="false" />
+        <activity
+            android:name=".AppsList"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
